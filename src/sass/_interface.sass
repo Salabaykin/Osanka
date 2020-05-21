@@ -1,0 +1,111 @@
+.btn 
+  padding: 10px 45px
+  background: linear-gradient(180deg, #F0EB76 0%, #F5DF68 100%)
+  border-radius: 40px
+  font-weight: bold
+  font-size: 16px
+  color: #313030
+
+.section 
+  &__title
+    position: relative
+    font-weight: bold
+    font-size: 38px
+    line-height: 50px
+    color: #000000
+    &::before
+      content: ''
+      background: url('../img/section-title-ellipse.svg') center center / cover no-repeat
+      width: 129px
+      height: 129px
+      position: absolute
+      top: -45px
+      left: -55px
+  &__subtitle
+    margin-top: 18px
+    font-size: 24px
+    line-height: 30px
+    color: #797979
+
+.form 
+  padding: 56px
+  width: 480px
+  background: #FFFFFF
+  box-shadow: 0px 4px 20px rgba(240, 235, 118, 0.45)
+  border-radius: 10px
+  display: flex
+  flex-direction: column
+  align-items: center
+  &__input
+    padding: 17px 60px 17px 26px
+    width: 100%
+    background: #FFFFFF
+    border: 1px solid #ECECEC
+    box-sizing: border-box
+    box-shadow: 5px 5px 13px rgba(230, 230, 230, 0.9), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px -5px 10px rgba(230, 230, 230, 0.2), -5px 5px 10px rgba(230, 230, 230, 0.2), inset -1px -1px 2px rgba(230, 230, 230, 0.5), inset 1px 1px 2px rgba(255, 255, 255, 0.3)
+    border-radius: 10px
+    font-size: 18px
+    color: #969696
+    &:last-of-type
+      margin-bottom: 0
+  &__name 
+    margin-bottom: 27px
+    width: 100%
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      background: url('../img/user.svg') center center / cover no-repeat
+      width: 23px
+      height: 26px
+      top: 15px
+      right: 20px
+  &__mail
+    margin-bottom: 27px
+    width: 100%
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      background: url('../img/mail.svg') center center / cover no-repeat
+      width: 30px
+      height: 25px
+      top: 15px
+      right: 20px
+  &__phone
+    margin-bottom: 27px
+    width: 100%
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      background: url('../img/tel.svg') center center / cover no-repeat
+      width: 26px
+      height: 26px
+      top: 15px
+      right: 20px
+  &__policy 
+    margin: 27px 0 27px 0
+    font-size: 12px
+    line-height: 22px
+    color: #070505
+    text-align: center
+    a 
+      color: #6876F5
+  &__btn 
+    padding: 27px 70px
+    background: linear-gradient(180deg, #F0EB76 0%, #F5DF68 100%)
+    border-radius: 40px
+    font-weight: bold
+    font-size: 20px
+    color: #313030
+    border: none 
+    cursor: pointer
+    box-shadow: 0px 4px 18px rgba(66, 66, 66, 0.25)
+
+
+
+
+
+
+

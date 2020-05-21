@@ -1,0 +1,43 @@
+.header
+  position: fixed
+  width: 100%
+  background-color: #ffffff
+  z-index: 5
+  .row 
+    padding: 19px 0
+  .logo
+    width: 117px
+    height: 52px
+    &__img 
+      width: 100%
+  .menu 
+    &__list 
+      display: flex
+      li 
+        margin-right: 35px
+        &:last-child
+          margin-right: 0
+    &__link
+      padding: 8px 0
+  .phone 
+    text-align: right
+    &__link 
+      position: relative
+      font-weight: bold
+      font-size: 16px
+      text-decoration-line: underline
+      &::before
+        content: ''
+        position: absolute
+        top: 3px
+        left: -25px
+        background: url('../img/phone.svg') center center / cover no-repeat
+        width: 14px
+        height: 14px
+  .call 
+    display: flex
+    justify-content: flex-end
+    &__btn 
+
+      
+        
