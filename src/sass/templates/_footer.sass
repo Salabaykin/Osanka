@@ -1,0 +1,58 @@
+.footer 
+  padding: 50px 0
+  background: #373737
+  &__title 
+    font-size: 18px
+    line-height: 35px
+    color: #FFFFFF
+  &__contacts
+    &-address 
+      a 
+        color: #ffffff
+        &:hover
+          text-decoration: underline
+      address
+        font-style: normal
+    &-name 
+      margin-left: 25px
+      margin-bottom: 20px
+      display: flex
+      font-size: 18px
+      color: #FFFFFF
+      &:last-child
+        margin-bottom: 0
+    &-icon 
+      width: 110px
+    .address 
+      position: relative
+      &::before
+        position: absolute
+        content: ''
+        background: url('../img/map-icon.svg')
+        background-repeat: no-repeat
+        width: 11px
+        height: 25px
+        top: 0
+        left: -23px
+    .tel 
+      position: relative
+      &::before
+        position: absolute
+        content: ''
+        background: url('../img/tel-icon.svg')
+        background-repeat: no-repeat
+        width: 15px
+        height: 25px
+        top: 0
+        left: -25px
+    .mail 
+      position: relative
+      &::before
+        position: absolute
+        content: ''
+        background: url('../img/mail-icon.svg')
+        background-repeat: no-repeat
+        width: 14px
+        height: 25px
+        top: 4px
+        left: -25px
