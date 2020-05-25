@@ -13,12 +13,12 @@
   <header class="header">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-2">
+        <div class="col-lg-2 col-md-10 col-sm-6 col">
           <div class="logo">
             <img class="logo__img" src="img/logo.png" alt="Osanka">
           </div>
         </div>
-        <div class="col-5">
+        <div class="col-lg-5 col-md-2 col-sm-6 col">
           <nav class="menu">
             <ul class="menu__list">
               <li><a class="menu__link" href="#">Главная</a></li>
@@ -26,30 +26,58 @@
               <li><a class="menu__link" href="#">Отзывы</a></li>
             </ul>
           </nav>
+
+          <div class="burger__wrapper">
+            <div class="burger-button">
+              <span></span>
+            </div>
+          </div>
+
         </div>
-        <div class="col">
+
+        <div class="col d-none d-lg-block">
           <div class="phone">
             <a class="phone__link" href="tel:+88005504329">8-800-550-43-29</a>
           </div>
         </div>
-        <div class="col">
+        <div class="col d-none d-lg-block justify-content-end">
           <div class="call">
             <a class="call__btn btn" href="#">Заказать</a>
           </div>
         </div>
       </div>
       <!-- /.row -->
+
     </div>
     <!-- /.container -->
+
   </header>
   <!-- /.header -->
+
+  <div class="burger-nav">
+    <nav class="burger-menu">
+      <ul class="burger-menu__list">
+        <li><a class="burger-menu__link" href="#">Главная</a></li>
+        <li><a class="burger-menu__link" href="#">Характеристики</a></li>
+        <li><a class="burger-menu__link" href="#">Отзывы</a></li>
+      </ul>
+
+      <div class="phone">
+        <a class="phone__link" href="tel:+88005504329">8-800-550-43-29</a>
+      </div>
+      <div class="call">
+        <a class="call__btn btn" href="#">Заказать</a>
+      </div>
+    </nav>
+  </div>
+  <!-- /.burger-nav -->
 
   <main>
 
     <section class="main" style="background: url('img/main-bg.jpg'); background-position-x: center; background-position-y: top; background-repeat: no-repeat; background-size: cover;">
       <div class="container">
         <div class="row">
-          <div class="col-7">
+          <div class="col-md-7 col-sm-12">
             <h1 class="main__title">Ваша идеальная осанка за 30 дней!</h1>
             <p class="main__subtitle">
               Приобретай новую полезную привычку и становись увереннее и красивее с каждым днем!
@@ -66,14 +94,14 @@
     <section class="book" style="background: url('img/book-bg.svg') left bottom / cover no-repeat;">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-lg-6 col-md-12 d-flex justify-content-center">
             <div class="book__img">
               <img src="img/section-1-book.png" alt="Book">
-              <div class="book__price">3700 руб</div>
+              <div class="book__price">3700<br>руб</div>
             </div>
           </div>
           <!-- /.col-6 -->
-          <div class="col-6 book__text">
+          <div class="col-lg-6 col-md-12 book__text">
             <h3 class="section__title">Умный Мастер осанки не позволит вам сутулиться</h3>
             <div class="section__subtitle">
               Он будет напоминать вам держать спину ровно легкой вибрацией. 
@@ -116,13 +144,13 @@
         <!-- /.row -->
 
         <div class="row start__wrapper">
-          <div class="col-7">
+          <div class="col-md-12 col-lg-6 d-flex justify-content-center ">
             <div class="start__img">
               <img src="img/start-1.jpg" alt="">
             </div>
             <!-- /.start__img -->
           </div>
-          <div class="col-5">
+          <div class="col-md-12 col-lg-6">
             <div class="start__content">
               <div class="start__num">1.</div>
               <!-- /.start__num -->
@@ -136,7 +164,7 @@
         <!-- /.row -->
 
         <div class="row start__wrapper">
-          <div class="col-5">
+          <div class="order-2 order-lg-0 col-md-12 col-lg-6">
             <div class="start__content">
               <div class="start__num">2.</div>
               <!-- /.start__num -->
@@ -146,7 +174,7 @@
             </div>
             <!-- /.start__content -->
           </div>
-          <div class="col-7 img--right">
+          <div class="order-1 order-lg-0 col-md-12 col-lg-6  d-flex justify-content-center img--right">
             <div class="start__img">
               <img src="img/start-2.jpg" alt="">
             </div>
@@ -156,13 +184,13 @@
         <!-- /.row -->
 
         <div class="row start__wrapper">
-          <div class="col-7">
+          <div class="col-md-12 col-lg-6 d-flex justify-content-center ">
             <div class="start__img">
               <img src="img/start-3.jpg" alt="">
             </div>
             <!-- /.start__img -->
           </div>
-          <div class="col-5">
+          <div class="col-md-12 col-lg-6">
             <div class="start__content">
               <div class="start__num">3.</div>
               <!-- /.start__num -->
@@ -183,13 +211,13 @@
     <section class="consultation" style="background: url('img/consult-bg.jpg') center center / cover no-repeat;">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-12 col-lg-6">
             <h2 class="consultation__title">Хотите получить консультацию?</h2>
             <div class="consultation__subtitle">
               Оставьте заявку и менеджер свяжется с вами, чтобы подробно рассказать о Мастере осанки
             </div>
           </div>
-          <div class="col-6 form-right">
+          <div class="col-md-12 col-lg-6 d-flex justify-content-center form-right">
             <div class="consultation__wrapper">
               <form action="#" class="form">
                 <div class="form__name">
@@ -231,77 +259,97 @@
         </div>
         <!-- /.row -->
 
-        <div class="row mt-50">
-          <div class="col-6">
-            <div class="problem__content">
-              <h4 class="problem__title">Укорочение грудных мышц</h4>
-              <p class="problem__descr">
-                Создает замкнутый круг в формировании неправиьной осанки. Укорочение грудных мышц является как причиной, так следствием сутулости.
-              </p>
-            </div>
-            <!-- /.problem__content -->
-          </div>
-          <div class="col-6">
-            <div class="problem__img">
-              <img src="img/problem-1.jpg" alt="">
-            </div>
-          </div>
-        </div>
-        <!-- /.row -->
+        <div class="problem-slider">
 
-        <div class="row problem__wrapper">
-          <div class="col-6">
-            <div class="problem__img">
-              <img src="img/problem-2.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-6 problem--right">
-            <div class="problem__content">
-              <h4 class="problem__title">Остеохондроз и межпозвоночные грыжи</h4>
-              <p class="problem__descr">
-                Сутулость приводит к прогрессированию кифоза, что приводит к проблемам в работе ЖКТ, сердца, мочеполовой системы.
-              </p>
-            </div>
-            <!-- /.problem__content -->
-          </div>
-        </div>
-        <!-- /.row -->
+          <div>
 
-        <div class="row problem__wrapper">
-          <div class="col-6">
-            <div class="problem__content">
-              <h4 class="problem__title">Неправильный прикус и хруст при жевании</h4>
-              <p class="problem__descr">
-                Сутулость способствует появлению неправильного прикуса, изменениям роста зубов и, как следствие, кариозным изменениям. 
-              </p>
+            <div class="row mt-50">
+              <div class="col-md-12 order-2 order-lg-0 col-lg-6">
+                <div class="problem__content">
+                  <h4 class="problem__title">Укорочение грудных мышц</h4>
+                  <p class="problem__descr">
+                    Создает замкнутый круг в формировании неправиьной осанки. Укорочение грудных мышц является как причиной, так следствием сутулости.
+                  </p>
+                </div>
+                <!-- /.problem__content -->
+              </div>
+              <div class="col-md-12 order-1 order-lg-0 col-lg-6 d-flex justify-content-center">
+                <div class="problem__img">
+                  <img src="img/problem-1.jpg" alt="">
+                </div>
+              </div>
             </div>
-            <!-- /.problem__content -->
-          </div>
-          <div class="col-6">
-            <div class="problem__img">
-              <img src="img/problem-3.jpg" alt="">
-            </div>
-          </div>
-        </div>
-        <!-- /.row -->
+            <!-- /.row -->
 
-        <div class="row problem__wrapper">
-          <div class="col-6">
-            <div class="problem__img">
-              <img src="img/problem-4.jpg" alt="">
-            </div>
           </div>
-          <div class="col-6 problem--right">
-            <div class="problem__content">
-              <h4 class="problem__title">Отекшее лицо и головные боли</h4>
-              <p class="problem__descr">
-                Спазмирование диафрагмы не дает правильно дышать, прерывает поток питания к тканям лица и мозга. 
-              </p>
+
+          <div>
+
+            <div class="row problem__wrapper">
+              <div class="col-md-12 order-1 order-lg-0 col-lg-6 d-flex justify-content-center">
+                <div class="problem__img">
+                  <img src="img/problem-2.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-12 order-2 order-lg-0 col-lg-6 problem--right">
+                <div class="problem__content">
+                  <h4 class="problem__title">Остеохондроз и межпозвоночные грыжи</h4>
+                  <p class="problem__descr">
+                    Сутулость приводит к прогрессированию кифоза, что приводит к проблемам в работе ЖКТ, сердца, мочеполовой системы.
+                  </p>
+                </div>
+                <!-- /.problem__content -->
+              </div>
             </div>
-            <!-- /.problem__content -->
+            <!-- /.row -->
+
           </div>
+
+          <div>
+
+            <div class="row problem__wrapper">
+              <div class="col-md-12 order-2 order-lg-0 col-lg-6">
+                <div class="problem__content">
+                  <h4 class="problem__title">Неправильный прикус и хруст при жевании</h4>
+                  <p class="problem__descr">
+                    Сутулость способствует появлению неправильного прикуса, изменениям роста зубов и, как следствие, кариозным изменениям. 
+                  </p>
+                </div>
+                <!-- /.problem__content -->
+              </div>
+              <div class="col-md-12 order-1 order-lg-0 col-lg-6 d-flex justify-content-center">
+                <div class="problem__img">
+                  <img src="img/problem-3.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <!-- /.row -->
+
+          </div>
+
+          <div>
+
+            <div class="row problem__wrapper">
+              <div class="col-md-12 order-1 order-lg-0 col-lg-6 d-flex justify-content-center">
+                <div class="problem__img">
+                  <img src="img/problem-4.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-12 order-2 order-lg-0 col-lg-6 problem--right">
+                <div class="problem__content">
+                  <h4 class="problem__title">Отекшее лицо и головные боли</h4>
+                  <p class="problem__descr">
+                    Спазмирование диафрагмы не дает правильно дышать, прерывает поток питания к тканям лица и мозга. 
+                  </p>
+                </div>
+                <!-- /.problem__content -->
+              </div>
+            </div>
+            <!-- /.row -->
+            
+          </div>
+
         </div>
-        <!-- /.row -->
 
       </div>
       <!-- /.container -->
@@ -663,6 +711,24 @@
               ОГРН 5167734535353 ИНН 7734345656
             </div>
             <!-- /.footer__title -->
+
+            <div class="footer__social">
+              <a href="#" class="footer__link">
+                <div class="footer__social-icon">
+                  <svg class="social__icon">
+                    <use xlink:href="img/sprite.svg#facebook"></use>
+                  </svg>
+                </div>
+              </a>
+              <a href="#" class="footer__link">
+                <div class="footer__social-icon">
+                  <svg class="social__icon">
+                    <use xlink:href="img/sprite.svg#instagram"></use>
+                  </svg>
+                </div>
+              </a>
+            </div>
+            <!-- /.footer__social -->
           </div>
           <!-- /.footer__content -->
         </div>
@@ -695,6 +761,7 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
+  <script src="js/slick-slider.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
